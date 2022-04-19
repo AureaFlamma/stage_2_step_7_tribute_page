@@ -1,1 +1,133 @@
-/* Copy and paste your CSS from CodePen into here */
+body {
+  background: url("https://www.toptal.com/designers/subtlepatterns/uploads/hotel-wallpaper.png");
+}
+
+.subdue-background {
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.5);
+}
+#main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0% 20% 0% 20%;
+  min-width: 500px;
+}
+
+header {
+  margin: 2em 0 2em 0;
+  font-family: Marcellus, serif;
+  text-align: center;
+}
+
+#title {
+  font-size: 3.5em;
+  padding: 0;
+  margin: 0;
+}
+#subtitle{
+  font-size: 2em;
+  padding: 0;
+  margin: 0;
+}
+
+#img-div {
+  width: 100%;
+  margin: 1.5em 0 1.5em 0;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  
+}
+#img-caption {
+  font-style: italic;
+  font-family: Montserrat, sans-serif;
+
+}
+#tribute-info {
+  margin: 1.5em 0 1.5em 0;
+}
+h2 {
+  font-size: 1.5em;
+  text-align: center;
+  font-family: Marcellus, serif;
+  
+  
+}
+#credit {
+  font-style: italic;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  line-height: 1.5em;
+}
+#bio {
+  font-family: Montserrat, sans-serif;
+  line-height: 1.8em;
+}
+.link-text {
+  font-style: italic;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  line-height: 1.5em;
+}
+
+#quotes {
+  margin: 1.5em 0 1.5em 0;
+}
+#quotes-intro {
+  font-style: italic;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  line-height: 1.5em;
+}
+
+#quotes-container {
+  padding-top: 1em;
+  display: grid;
+  grid-template-columns: repeat(2 auto);
+  grid-template-rows: repeat (4 auto);
+  grid-gap: 2em;
+  grid-template-areas: 
+    "first1 first2" "second second" "third1 third2" "fourth fourth" "fifth fifth";
+}
+blockquote {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat Light";
+  font-size: 1em;
+  text-indent: 2em;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.5);
+  width: auto;
+  height: auto;
+  
+  
+}
+#quote-1 {
+  grid-area: first1;
+}
+#quote-2 {
+  grid-area: first2;
+}
+#quote-3 {
+  grid-area: second;
+}
+#quote-4{
+  grid-area: third1;
+}
+#quote-5{
+  grid-area: third2;
+}
+#quote-6 {
+  grid-area: fourth;
+}
+#quote-6 p {
+  margin: 0;
+}
+#quote-7 {
+  grid-area: fifth;
+}
+
